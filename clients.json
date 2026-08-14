@@ -1,0 +1,20 @@
+{
+  "default": {
+    "client_name": "Cliente Camara",
+    "logo_path": "data/logos/default_logo.png",
+    "primary_color": "#1a1a1a",
+    "secondary_color": "#8B0000",
+    "accent_color": "#808080",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "/var/home/ngomes/Downloads/relatorio/Logos/LOGONSC.png"
+  },
+  "HCOR": {
+    "client_name": "HCOR",
+    "logo_path": "data/logos/HCOR_logo.png",
+    "primary_color": "#1a1a1a",
+    "secondary_color": "#8B0000",
+    "accent_color": "#808080",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "data/logos/netsafecorp_logo.png"
+  }
+}

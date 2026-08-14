@@ -1,0 +1,31 @@
+{
+  "expected_files": [
+    "Action_Cyber_Threats.csv",
+    "Top_10_Users.csv",
+    "Regras_exploit_prevention_-_Playbook_Trellix_Insights.csv",
+    "Top_10_Computers.csv",
+    "Top_10_regras_de_Prevencao_de_Exploracao_violadas.csv"
+  ],
+  "column_mapping": {
+    "Action_Cyber_Threats.csv": {
+      "action_taken": "Action Taken",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_Users.csv": {
+      "user_name": "Threat Target User Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Regras_exploit_prevention_-_Playbook_Trellix_Insights.csv": {
+      "rule_name": "Analyzer Rule Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_Computers.csv": {
+      "computer_name": "System Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_regras_de_Prevencao_de_Exploracao_violadas.csv": {
+      "rule_name": "Analyzer Rule Name",
+      "event_count": "Number of Threat Events"
+    }
+  }
+}
