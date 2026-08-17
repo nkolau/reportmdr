@@ -1,0 +1,19 @@
+# ===== Dependências Principais =====
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.18.0
+
+# ===== Geração de PDF =====
+fpdf2>=2.7.0
+
+# ===== Manipulação de Imagens =====
+Pillow>=10.0.0
+
+# ===== Geração de Gráficos (PDF) =====
+matplotlib>=3.7.0
+
+# ===== Datas =====
+python-dateutil>=2.8.0
+
+# ===== Unicode e Encoding =====
+Unidecode>=1.3.0
