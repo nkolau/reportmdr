@@ -4,20 +4,21 @@ from datetime import datetime
 
 
 def save_report_history(client_name, metrics, dataframes_keys, period):
-    """Salva histórico do relatório gerado."""
+    """Salva histórico do relatório."""
+    import json
+    import os
+
     history_dir = "data/history"
     os.makedirs(history_dir, exist_ok=True)
 
     history_file = os.path.join(history_dir, f"{client_name}_history.json")
 
-    # Carregar histórico existente
     if os.path.exists(history_file):
         with open(history_file, 'r', encoding='utf-8') as f:
             history = json.load(f)
     else:
         history = []
 
-    # Criar entrada
     entry = {
         'date': datetime.now().isoformat(),
         'period': period,
@@ -25,18 +26,14 @@ def save_report_history(client_name, metrics, dataframes_keys, period):
         'files': dataframes_keys
     }
 
-    # Copiar métricas serializáveis
     for k, v in metrics.items():
         if isinstance(v, (int, float, str, bool)):
             entry['metrics'][k] = v
 
     history.append(entry)
 
-    # Salvar
     with open(history_file, 'w', encoding='utf-8') as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
-
-    return history
 
 
 def load_report_history(client_name):
