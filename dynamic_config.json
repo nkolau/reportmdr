@@ -1,0 +1,52 @@
+{
+  "files": {
+    "action_cyber_threats.csv": {
+      "keywords": ["acao", "tomada", "cyber", "threats"],
+      "description": "Ações Tomadas - Cyber Threats",
+      "columns": {
+        "action_taken": ["Action Taken", "Acao_Tomada", "Ação_Tomada"],
+        "event_count": ["Number of Threat Events", "Quantidade", "Eventos"]
+      }
+    },
+    "top_10_users.csv": {
+      "keywords": ["users", "usuarios", "most_detections"],
+      "description": "Top 10 Usuários com Mais Detecções",
+      "columns": {
+        "user_name": ["Threat Target User Name", "Usuario", "User"],
+        "event_count": ["Number of Threat Events", "Detecções", "Quantidade"]
+      }
+    },
+    "top_10_computers.csv": {
+      "keywords": ["computers", "maquinas", "equipments", "most_detections"],
+      "description": "Top 10 Computadores com Mais Detecções",
+      "columns": {
+        "computer_name": ["System Name", "Computer", "Computador", "Maquina"],
+        "event_count": ["Number of Threat Events", "Detecções", "Quantidade"]
+      }
+    },
+    "top_10_regras_de_prevencao_de_exploracao_violadas.csv": {
+      "keywords": ["regras", "prevencao", "exploracao", "violadas"],
+      "description": "Top 10 Regras de Prevenção Violadas",
+      "columns": {
+        "rule_name": ["Analyzer Rule Name", "Regra", "Rule"],
+        "violation_count": ["Number of Threat Events", "Violações", "Quantidade"]
+      }
+    },
+    "regras_exploit_prevention_-_playbook_trellix_insights.csv": {
+      "keywords": ["regras", "exploit", "playbook", "trellix", "insights"],
+      "description": "Regras Exploit Prevention - Playbook Trellix",
+      "columns": {
+        "rule_name": ["Analyzer Rule Name", "Regra", "Rule"],
+        "event_count": ["Number of Threat Events", "Detecções", "Quantidade"]
+      }
+    },
+    "top_10_detected_threats.csv": {
+      "keywords": ["detected", "threats", "ameacas", "top_10"],
+      "description": "Top 10 Ameaças Detectadas",
+      "columns": {
+        "threat_name": ["Threat Name", "Ameaca", "Ameaça"],
+        "event_count": ["Number of Threat Events", "Detecções", "Quantidade"]
+      }
+    }
+  }
+}
