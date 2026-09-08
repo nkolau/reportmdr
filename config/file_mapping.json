@@ -1,0 +1,83 @@
+{
+  "expected_files": [
+    "Action_Cyber_Threats.csv",
+    "Top_10_Users.csv",
+    "Regras_exploit_prevention_-_Playbook_Trellix_Insights.csv",
+    "Top_10_Computers.csv",
+    "Top_10_regras_de_Prevencao_de_Exploracao_violadas.csv"
+  ],
+  "file_configs": {
+    "Action_Cyber_Threats.csv": {
+      "title": "Ações Tomadas pelo Antivírus",
+      "description": "Ações tomadas pelo motor de proteção nos endpoints",
+      "enunciado": "Distribuição das ações automáticas e preventivas executadas pela plataforma de proteção nos endpoints. Demonstra a eficácia da contenção e resposta em tempo real contra ameaças bloqueadas, limpas ou mantidas em quarentena.",
+      "keywords": ["action", "cyber", "threats", "acoes", "antivirus"],
+      "columns": {
+        "action_taken": ["Action Taken", "Action_Taken", "Ação Tomada", "Acao"],
+        "event_count": ["Number of Threat Events", "Event Count", "Total de Eventos", "Eventos", "Count"]
+      }
+    },
+    "Top_10_Users.csv": {
+      "title": "Usuários com Mais Detecções",
+      "description": "Usuários e contas com maior incidência de eventos",
+      "enunciado": "Identificação dos usuários e identidades com maior incidência de eventos de segurança no período. Permite priorizar ações de conscientização corporativa, auditoria de credenciais e verificação de comportamentos anômalos.",
+      "keywords": ["top", "users", "usuarios", "user"],
+      "columns": {
+        "user_name": ["Threat Target User Name", "User Name", "Usuário", "Usuario", "User"],
+        "event_count": ["Number of Threat Events", "Event Count", "Total de Eventos", "Eventos", "Count"]
+      }
+    },
+    "Regras_exploit_prevention_-_Playbook_Trellix_Insights.csv": {
+      "title": "Regras do Playbook Trellix Insights",
+      "description": "Regras acionadas do playbook de inteligência de ameaças",
+      "enunciado": "Mapeamento das técnicas de ataque e regras de inteligência de ameaças correlacionadas no ambiente, fornecendo visibilidade estratégica de táticas adversárias alinhadas à matriz MITRE ATT&CK.",
+      "keywords": ["playbook", "trellix", "insights", "regras_exploit"],
+      "columns": {
+        "rule_name": ["Analyzer Rule Name", "Rule Name", "Nome da Regra", "Regra"],
+        "event_count": ["Number of Threat Events", "Event Count", "Total de Eventos", "Eventos", "Count"]
+      }
+    },
+    "Top_10_Computers.csv": {
+      "title": "Computadores com Mais Detecções",
+      "description": "Endpoints que registraram maior volume de eventos",
+      "enunciado": "Endpoints e estações de trabalho que registraram o maior volume de alertas no período. Essencial para direcionamento de varreduras forenses aprofundadas, investigação de persistência e isolamento preventivo.",
+      "keywords": ["top", "computers", "computadores", "hosts", "endpoints"],
+      "columns": {
+        "computer_name": ["System Name", "Computer Name", "Nome do Computador", "Host", "Hostname"],
+        "event_count": ["Number of Threat Events", "Event Count", "Total de Eventos", "Eventos", "Count"]
+      }
+    },
+    "Top_10_regras_de_Prevencao_de_Exploracao_violadas.csv": {
+      "title": "Regras de Prevenção de Exploração Violadas",
+      "description": "Regras de proteção contra exploits mais acionadas",
+      "enunciado": "Regras de proteção avançada contra exploits e técnicas de evasão que foram acionadas no parque de máquinas. Indica tentativas ativas de exploração de vulnerabilidades e direciona o refinamento (tuning) das políticas de segurança.",
+      "keywords": ["regras", "prevencao", "exploracao", "violadas", "exploit"],
+      "columns": {
+        "rule_name": ["Analyzer Rule Name", "Rule Name", "Nome da Regra", "Regra"],
+        "event_count": ["Number of Threat Events", "Event Count", "Total de Eventos", "Eventos", "Count"]
+      }
+    }
+  },
+  "column_mapping": {
+    "Action_Cyber_Threats.csv": {
+      "action_taken": "Action Taken",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_Users.csv": {
+      "user_name": "Threat Target User Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Regras_exploit_prevention_-_Playbook_Trellix_Insights.csv": {
+      "rule_name": "Analyzer Rule Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_Computers.csv": {
+      "computer_name": "System Name",
+      "event_count": "Number of Threat Events"
+    },
+    "Top_10_regras_de_Prevencao_de_Exploracao_violadas.csv": {
+      "rule_name": "Analyzer Rule Name",
+      "event_count": "Number of Threat Events"
+    }
+  }
+}

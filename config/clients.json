@@ -1,0 +1,37 @@
+{
+  "default": {
+    "client_name": "Grupo Hospitalar Alpha Saúde",
+    "logo_path": "data/logos/default_logo.png",
+    "primary_color": "#06090f",
+    "secondary_color": "#8B0000",
+    "accent_color": "#3b82f6",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "data/logos/netsafecorp_logo.png"
+  },
+  "HCOR": {
+    "client_name": "cliente bacana",
+    "logo_path": "data/logos/HCOR_logo.png",
+    "primary_color": "#06090f",
+    "secondary_color": "#8B0000",
+    "accent_color": "#3b82f6",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "data/logos/netsafecorp_logo.png"
+  },
+  "demo_alpha": {
+    "client_name": "Grupo Hospitalar Alpha Saúde",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "data/logos/netsafecorp_logo.png",
+    "primary_color": "#06090f",
+    "secondary_color": "#8B0000",
+    "accent_color": "#3b82f6"
+  },
+  "Generico": {
+    "client_name": "Generico",
+    "logo_path": "data/logos/Generico_logo.png",
+    "company_name": "NetsafeCorp",
+    "company_logo_path": "data/logos/netsafecorp_logo.png",
+    "primary_color": "#0f172a",
+    "secondary_color": "#8B0000",
+    "accent_color": "#3b82f6"
+  }
+}

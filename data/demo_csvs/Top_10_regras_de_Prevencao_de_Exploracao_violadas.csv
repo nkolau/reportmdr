@@ -1,0 +1,8 @@
+rule_name,event_count
+T1059.001 - PowerShell Execution Bypass & Encoded Command,7
+T1055 - Process Injection & Memory Protection Violation,5
+T1003 - OS Credential Dumping (LSASS Memory Access),3
+T1218.011 - Rundll32 Execution from Suspicious Directory,2
+T1021.002 - SMB/Admin Shares Lateral Movement Attempt,2
+T1083 - File and Directory Discovery Scripting,1
+T1078 - Valid Accounts Suspicious Authentication Pattern,1
